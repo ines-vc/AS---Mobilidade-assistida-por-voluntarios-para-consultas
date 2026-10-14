@@ -1,0 +1,6 @@
+Ao invés de kiosk, ajustar  a app para incluir o sistema do hospital que vai avisando na aplicação quando o utente entra e sai da consulta
+(business 2 business)
+
+As cenas das KPI's
+
+Ajustar os stakeholders para que eles actually participem e possam sentir-se inclinados a financiar a nossa app
