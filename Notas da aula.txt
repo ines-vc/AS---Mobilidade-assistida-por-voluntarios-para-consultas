@@ -1,0 +1,16 @@
+Casos de uso. Exemplo:
+
+Mudar um pneu, temos 4 casos de uso:
+
+- Autónomamente (somos nós a trocar o pneu furado)
+- Chamar um reboque
+- Ajuda de outra pessoa
+
+Cada caso de uso necessita de pré-requisitos. Por exemplo, para mudar o pneu autónomamente, necessitamos de um macaco, pneu suplente e de saber como trocar um pneu.
+
+Para além disso, para mudar um pneu precisamos ter um pneu furado para que aconteça.
+
+
+
+MVP - Minimum Value Player
+
