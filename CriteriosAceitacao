@@ -1,18 +1,21 @@
-Critérios de aceitação:
+Use case e os seus critérios de aceitação:
 
-	Utente:
-	-Ter conta feita na app
+	Registo do utente:
+	-Ter o numero de identificação do cc
 	-Identificar o seu problema de mobilidade
 	-Identificar a sua morada
 	-Identificação de cuidados especificos
 	
-	Voluntario:
-	-Ter conta feita na app
-	-Identificação do carro (se é adaptado ou não)
+	Registo do voluntario:
+	-Ter o numero de indentificação de mobilidade
+	-Identificação do carro (se é adaptado ou não) e da sua matricula
 	-Identificação de certificados (se sabe fazer primeiros socorros ou se sabe suporte basico de vida, etc...)
+
+	Pedido de viagem do utente:
+	-Selecionar a hora e local
 	
-	Stackholders:
-	-Falta de transporte
-	-Falta de funcionários
+	Registo de um stackholders:
+	-Identificação do stackholder e dos utentes que quer mobilizar
+	-Morada
 	-
 	
