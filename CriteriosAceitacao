@@ -1,49 +1,40 @@
 Use case e os seus critérios de aceitação:
 	
 	Solicitar transporte:
-	-
-	-
-	-
+	-Ter conta registada
+	-Localizar local de recolha
 	
 	Gerir perfil do utente:
-	-
-	-
+	-Ter conta registada
 	
 	Consultar hitorico e estado de pedidos:
-	-
-	-
-	-
+	-Ter registo de uma consulta no minimo
+	-Ter conta registada
 	
 	Cancelar pedido:
-	-
-	-
-	-
+	-Ter conta registada
+	-Ter realizado um pedido de viagem
 	
 	Calcular e atribuir voluntario:
-	-
-	-
+	-Voluntário disponivel sem outra viagem atribuída
+	-Caracteristicas do veículo compativeis com o utente
 	
 	Realizar Missao de ttansporte:
-	-
-	-
-	-
+	-Atribuição de um voluntário
+	-Transporte do voluntário
 	
 	Registar entrada/saida da unidade hospitalar:
-	-
-	-
-	-
+	-NIF do utente
+	-Ter uma consulta marcada
 	
 	
 	Consultar saldo e extrato de banco de tempo:
-	-
-	-
-	-
+	-Realização de uma viagem no mínimo
+	-Ter conta registada
 	
 	Resgatar benificio:
-	-
-	-
-	-
-	
+	-Ter realizado o numero de horas necessário
+	-Ser voluntario do sistema
 	
 
 	Registo do utente:
@@ -56,12 +47,8 @@ Use case e os seus critérios de aceitação:
 	-Ter o numero de indentificação de mobilidade
 	-Identificação do carro (se é adaptado ou não) e da sua matricula
 	-Identificação de certificados (se sabe fazer primeiros socorros ou se sabe suporte basico de vida, etc...)
-
-	Pedido de viagem do utente:
-	-Selecionar a hora e local
 	
 	Registo de um stackholders:
 	-Identificação do stackholder e dos utentes que quer mobilizar
 	-Morada
-	-
 	
