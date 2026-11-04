@@ -1,0 +1,32 @@
+Concentrar nos Primeiros 2 pontos por agora
+
+Para cada Spec:
+	Nome
+	PROPOSTA:
+		why?
+		what changes?
+		new capabilities?
+		______Como começou agora as de baixo ficam inalteradas__________________
+		modified capabilities?
+		impact?
+
+-----------------------------------------------------------------------------------------------------
+Para as new capabilities:
+Spec/Name/Spec/Capability:
+	Purpose:
+		Added Requirements:
+			Requirement Name
+			Description
+			Scenario Name:
+				When?
+				Then?
+-----------------------------------------------------------------------------------------------------
+Design:
+	Context?
+	Goals/Non Goals
+	Decisions (o que identificamos como decisões técnicas) como vai funcionar, que tipo de tecnologias, onde vai ficar, Bases de dados(se necessário), etc...
+	Trade Offs/ Risks (escolher uma e pq  não a outra)
+	Implementação de Back End e depois pensar em como implementar no Front End se necessário
+		
+
+	

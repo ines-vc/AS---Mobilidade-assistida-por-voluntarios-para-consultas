@@ -1,0 +1,15 @@
+trabalhar sobre a informação que precisamos para a especificação
+A proposta:
+Uma especificação é uma capacidade
+Propósito
+Defenição da especificação 
+Cenários (pode acontecer isto e não isto)
+
+
+Identificar dentro dos UC às propostas:
+Especificações que conseguimos agrupar com os UC
+Um UC pode estar em várias especificações
+
+Começar pelos caminhos maiores/principais
+Discutir se a especificação está bem ou não está
+
