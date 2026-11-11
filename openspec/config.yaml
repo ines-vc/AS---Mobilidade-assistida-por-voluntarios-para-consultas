@@ -1,0 +1,25 @@
+schema: spec-driven
+
+context: |
+  Projeto MobiAssiste: plataforma digital multicanal (Portal Web e App Móvel Android/iOS) promovida por uma IPSS para gestão de transporte assistido "porta-a-porta" de idosos e cidadãos com mobilidade reduzida (ligeira, moderada ou severa) a consultas médicas não urgentes.
+  Atores principais: Utente, Técnico Social (Lares/ERPI), Familiar/Cuidador, Gestor da IPSS, Condutor Voluntário, Responsável da Unidade de Saúde e Sistema Hospitalar (API B2B).
+  Conceitos centrais do domínio: Utente, PedidoTransporte, Voluntario, ViaturaAdaptada, FrotaHibrida, OperadorRecurso (Táxi/TVDE), ConsultaMedica, NotificacaoB2B, BancoTempo e Voucher.
+  Restrições e integrações:
+  - Conformidade estrita com o RGPD e encriptação de dados pessoais e de saúde (TLS 1.3 e AES-256) alojados na UE.
+  - Usabilidade e acessibilidade sénior (WCAG 2.1 AA, operações principais na App em no máximo 3 toques).
+  - Integração via Webhooks/API REST com Sistemas Hospitalares (alertas B2B de entrada e fim de consulta), API Google Maps (rotas e GPS), API Táxi/TVDE (operador de recurso) e Plataforma Municipal de Recompensas (Banco de Tempo).
+  - Exclusões: transporte de emergência médica (INEM/112) e gestão financeira/mecânica de veículos privados dos voluntários.
+  Idioma: Escrever todos os artefactos, descrições e tarefas em Português de Portugal.
+
+rules:
+  proposal:
+    - Referenciar explicitamente o ID do Slice (ex. UC-01.S1) e os fluxos da SRS cobertos.
+    - Indicar o valor entregue ao utilizador/negócio de ponta a ponta.
+  specs:
+    - Usar os IDs da SRS nos nomes dos requirements (ex. UC-01 Solicitar transporte assistido) e nos nomes dos scenarios (ex. CT-01.1 Agendamento válido).
+    - Referenciar entre parênteses as Business Rules (BR-nn) e Requisitos Não Funcionais (RNF-nn) aplicáveis nos requirements SHALL.
+    - Cada Scenario deve traduzir diretamente um Caso de Teste (DADO/QUANDO/ENTÃO) da secção 3.6 da SRS.
+  design:
+    - Alinhar entidades e atributos com o Modelo do Domínio (secção 5 da SRS) e respeitar as restrições da secção 4.3.
+  tasks:
+    - Dividir as tarefas de implementação de forma clara entre Backend, Frontend e Testes.
